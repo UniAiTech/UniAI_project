@@ -44,7 +44,7 @@ nav #navP {
 nav #navBt {
     position: absolute;
     text-align: center;
-    left: 400px;
+    left: 370px;
     bottom: -5px;
     width: 100%;
 }
@@ -59,10 +59,12 @@ nav li {
 header li:hover {
     background-color: rgba(90, 73, 73, 0.781);
     border-radius: 7px;
+    text-decoration: underline;
 }
 
 nav a {
     color: white;
+    text-decoration: none;
 }
 
 #antMain video {
