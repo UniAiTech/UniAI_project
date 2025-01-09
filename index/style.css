@@ -120,7 +120,7 @@ picture #imgPr {
 
 @media (max-width: 638px) {
     picture #imgPr {
-        height: 95vh;
+        height: 80vh;
     }
 }
 
