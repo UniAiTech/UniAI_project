@@ -40,7 +40,7 @@ header {
 #navUl a {
     text-decoration: none;
     font-size: 2em;
-    color: white;
+    color: rgb(255, 14, 14);
 }
 
 #logoBox {
@@ -120,10 +120,62 @@ picture #imgPr {
 
 @media (max-width: 638px) {
     picture #imgPr {
-        height: 80vh;
+        height: 85vh;
     }
 }
 
 main p {
     color: white;
+}
+
+#loginBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.822);
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+    width: 300px;
+}
+
+#loginBox label {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+#loginBox input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    font-size: 1em;
+}
+
+#loginBox button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0b0fe0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+#loginBox button:hover {
+    background-color: #218838;
+}
+
+/* Responsividade para dispositivos menores */
+@media (max-width: 638px) {
+    #loginBox {
+        width: 80%;
+    }
 }
