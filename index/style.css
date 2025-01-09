@@ -118,6 +118,12 @@ picture #imgPr {
     height: 600px;
 }
 
+@media (max-width: 638px) {
+    picture #imgPr {
+        height: 540px;
+    }
+}
+
 main p {
     color: white;
 }
